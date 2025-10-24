@@ -12,6 +12,10 @@ import ProductsRepository from '@/lib/repositories/ProductsRepository';
 import { extractIdFromSlug } from '@/lib/utils/slugify';
 import { Metadata } from 'next';
 
+// Force dynamic rendering to prevent build-time database connection
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface PageProps {
   params: {
     slug: string;

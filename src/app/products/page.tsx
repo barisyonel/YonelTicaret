@@ -15,6 +15,10 @@ import { Metadata } from 'next';
 import { Suspense } from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 
+// Force dynamic rendering to prevent build-time database connection
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: 'Ürünler | Yönel Oto Yedek Parça - İveco, Ducato, Foton, Karataş',
   description: 'İveco Daily, Fiat Ducato, Foton traktör, Karataş traktör yedek parçaları ve Mutlu akü ürünlerimizi inceleyin. Orijinal yedek parça, hızlı teslimat.',
