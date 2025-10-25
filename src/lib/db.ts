@@ -6,19 +6,21 @@ const config: sql.config = {
   database: process.env.DB_NAME || '',
   user: process.env.DB_USER || '',
   password: process.env.DB_PASSWORD || '',
+  port: parseInt(process.env.DB_PORT || '1433'),
   options: {
     encrypt: true,
     trustServerCertificate: true,
     enableArithAbort: true,
-    connectTimeout: 30000, // 30 seconds
-    requestTimeout: 30000,
+    connectTimeout: 60000, // 60 seconds for remote connections
+    requestTimeout: 60000,
+    instanceName: process.env.DB_INSTANCE || undefined, // For named instances
   },
   pool: {
     max: 10,
     min: 0,
     idleTimeoutMillis: 30000,
   },
-  connectionTimeout: 30000,
+  connectionTimeout: 60000,
 };
 
 let pool: sql.ConnectionPool | null = null;
