@@ -52,6 +52,10 @@ export const metadata: Metadata = {
   },
 };
 
+// Dynamic rendering to show random products on each visit
+// and avoid build-time database connection issues
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   // Server-side data fetching (SSR) - İveco Products with Random Order
   let featuredProducts: any[] = [];
@@ -67,6 +71,7 @@ export default async function Home() {
     featuredProducts = shuffled.slice(0, 6);
   } catch (error) {
     console.log('⚠️ Products could not be loaded (database not configured)');
+    // Build zamanında veritabanı yoksa boş array kullanılacak
   }
 
   // Brand categories with models

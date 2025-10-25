@@ -24,6 +24,25 @@ const config: sql.config = {
 let pool: sql.ConnectionPool | null = null;
 
 export async function getConnection(): Promise<sql.ConnectionPool> {
+  // Check if database credentials are available
+  if (!config.server || !config.database || !config.user || !config.password) {
+    const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build';
+    const missingVars = [];
+    if (!config.server) missingVars.push('DB_SERVER');
+    if (!config.database) missingVars.push('DB_NAME');
+    if (!config.user) missingVars.push('DB_USER');
+    if (!config.password) missingVars.push('DB_PASSWORD');
+    
+    console.error('❌ Eksik veritabanı environment variables:', missingVars.join(', '));
+    
+    if (isBuildTime) {
+      console.error('⚠️  Build zamanında veritabanı bağlantısı yapılmamalı!');
+      console.error('💡 Çözüm: Admin sayfalarında "export const dynamic = \'force-dynamic\'" kullanın');
+    }
+    
+    throw new Error(`Database configuration incomplete. Missing: ${missingVars.join(', ')}`);
+  }
+  
   if (!pool) {
     try {
       console.log('🔄 SQL Server\'a bağlanılıyor...');
@@ -50,6 +69,10 @@ export async function getConnection(): Promise<sql.ConnectionPool> {
           console.error('💡 Öneri: SQL Server firewall\'unda Vercel IP\'lerini whitelist edin:');
           console.error('   - 76.76.21.0/24');
           console.error('   - 76.76.19.0/24');
+          console.error('   Veya Azure SQL kullanıyorsanız:');
+          console.error('   1. Azure Portal > SQL Server > Firewalls and virtual networks');
+          console.error('   2. "Allow Azure services and resources to access this server" açın');
+          console.error('   3. Vercel IP aralıklarını ekleyin');
         }
       }
       
