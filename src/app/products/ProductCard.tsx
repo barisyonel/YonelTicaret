@@ -23,7 +23,6 @@ import { generateProductUrl } from '@/lib/utils/slugify';
 import QuickViewModal from '@/components/QuickViewModal';
 import OptimizedImage from '@/components/OptimizedImage';
 import { useFavorites } from '@/hooks/useFavorites';
-import { useFavorites } from '@/hooks/useFavorites';
 
 interface Props {
   product: Product;
