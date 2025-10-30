@@ -966,12 +966,16 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
   }
 
+  const max = 60;
+  const base = ' | Yönel Oto Blog';
+  const trimmed = post.title.length > max ? `${post.title.slice(0, max - 1)}…` : post.title;
+
   return {
-    title: `${post.title} | Yönel Oto Blog`,
+    title: `${trimmed}${base}`,
     description: post.excerpt,
     keywords: post.tags.join(', '),
     openGraph: {
-      title: post.title,
+      title: trimmed,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,

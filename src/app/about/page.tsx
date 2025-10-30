@@ -14,7 +14,7 @@ import BuildIcon from '@mui/icons-material/Build';
 import StarIcon from '@mui/icons-material/Star';
 
 export const metadata: Metadata = {
-  title: 'Hakkımızda - 50+ Yıllık Tecrübe | Yönel Oto Yedek Parça | Tokat',
+  title: 'Hakkımızda | Yönel Oto Yedek Parça',
   description: 'Yönel Oto Yedek Parça - 1970\'den beri İveco Daily, Fiat Ducato, Foton, Karataş Traktör ve Mutlu Akü yedek parça satışında Tokat ve Türkiye\'nin güvenilir adresi. 5000+ ürün çeşidi, orijinal parça garantisi.',
   keywords: 'yönel oto yedek parça, tokat yedek parça, iveco daily tokat, foton traktör tokat, karataş traktör yedek parça, hakkımızda, firma bilgileri, yedek parça tedarikçi',
   openGraph: {
