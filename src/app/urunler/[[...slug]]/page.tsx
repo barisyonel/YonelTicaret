@@ -273,7 +273,13 @@ export default async function UrunlerPage({ params, searchParams }: PageProps) {
           />
 
           {/* Header with title */}
-          <ProductsHeader />
+          <ProductsHeader 
+            title={
+              activeCategory
+                ? (parentCategory ? `${parentCategory.Name} ${activeCategory.Name}` : activeCategory.Name)
+                : 'Ürünler'
+            }
+          />
 
           {/* Products Carousel - Admin tarafından eklenen slider görselleri */}
           <ProductsCarousel sliders={sliders} />
