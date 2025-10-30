@@ -106,8 +106,8 @@ const blogPosts: BlogPost[] = [
   },
   {
     slug: 'mutlu-aku-bakim-ve-kullanim-omru',
-    title: 'Mutlu Akü Bakımı ve Kullanım Ömrü Nasıl Uzatılır? Kış Aylarında Dikkat Edilmesi Gerekenler',
-    excerpt: 'Mutlu akü bakım önerileri, şarj durumu kontrolü, kış aylarında alınacak önlemler ve akü ömrünü 2 katına çıkaracak pratik bilgiler.',
+    title: 'Mutlu Akü Bakımı: Kış Aylarında Dikkat Edilmesi Gerekenler',
+    excerpt: 'Mutlu akü bakım önerileri, şarj durumu kontrolü, kış aylarında alınacak önlemler ve akü bakım ipuçları.',
     content: '',
     category: 'Mutlu Akü',
     tags: ['Mutlu Akü', 'Akü Bakımı', 'Kış Bakımı', 'Şarj'],

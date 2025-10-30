@@ -57,8 +57,8 @@ Orta segment taşımacılıkta ideal olan bu model:
 
 ### Orijinal Yedek Parça Avantajları
 1. **Tam Uyumluluk**: %100 araç uyumluluğu
-2. **Garanti Güvencesi**: Üretici garantisi
-3. **Uzun Ömür**: Ortalama 2x daha uzun kullanım
+2. **Üretici Onaylı**: Orijinal üretici standartlarında
+3. **Uzun Ömürlü Kullanım**: Daha dayanıklı yapı
 4. **Performans**: Tam kapasite çalışma
 
 ### Kaliteli Yan Sanayi Alternatifleri
@@ -132,36 +132,20 @@ Orta segment taşımacılıkta ideal olan bu model:
 - **CE**: Avrupa uygunluk sertifikası
 - **OEM Onaylı**: Üretici onaylı yan sanayi
 
-### 3. Garanti Şartlarını Öğrenin
-- Orijinal parçalarda 2 yıl garanti standart
-- Yan sanayide 1 yıl garanti normal
-- Montaj hatalarını kapsayan garanti avantajlı
-
-### 4. Satıcı Güvenilirliğini Araştırın
+### 3. Satıcı Güvenilirliğini Araştırın
 - 50+ yıllık tecrübeli firmalardan alın
 - Google yorumlarını kontrol edin
-- Fatura ve garanti belgesi isteyin
-
-## İveco Daily'de Sık Değişen Parçalar ve Ortalama Ömürleri
-
-| Parça | Ortalama Değişim Süresi |
-|-------|------------------------|
-| **Fren Balatası** | 30.000-40.000 km |
-| **Fren Diski** | 60.000-80.000 km |
-| **Debriyaj Seti** | 80.000-120.000 km |
-| **Amortisör** | 80.000-100.000 km |
-| **Triger Kayış Seti** | 80.000-100.000 km |
-| **Alternatör** | 150.000-200.000 km |
+- Fatura ve belgeli satış isteyin
 
 ## Yönel Oto'dan Profesyonel Tavsiyeler
 
 **50+ yıllık tecrübemizle** İveco Daily sahiplerine önerilerimiz:
 
-1. **Periyodik Bakımı Aksatmayın**: Motor ömrünü 2 katına çıkarır
+1. **Periyodik Bakımı Aksatmayın**: Motor performansını korur
 2. **Orijinal Yağ Kullanın**: İveco Daily 5W-30 tam sentetik tercih edin
 3. **Triger Kayış Değişimini Ertelemeyin**: Kopması halinde motor hasar görür
 4. **Fren Sistemini İhmal Etmeyin**: Can güvenliği için kritik
-5. **Kaliteli Yakıt Filtresi Kullanın**: Enjektör ömrünü uzatır
+5. **Kaliteli Yakıt Filtresi Kullanın**: Enjektörü korur
 
 ## Kış ve Yaz Aylarında Özel Bakım
 
@@ -185,7 +169,7 @@ Yönel Oto Yedek Parça olarak:
 - ✅ Hem orijinal hem kaliteli yan sanayi ürünleri sunuyoruz
 - ✅ 50+ yıllık tecrübemizle doğru parça seçiminde size yol gösteriyoruz
 - ✅ Türkiye geneline aynı gün kargo ile hızlı teslimat yapıyoruz
-- ✅ Tüm ürünlerimiz garantili ve sertifikalı
+- ✅ Tüm ürünlerimiz belgeli ve sertifikalı
 
 ### İletişim
 📞 **Telefon**: 0554 259 72 73  
@@ -423,7 +407,7 @@ Ağır yük taşımacılığında tercih edilen güçlü motor:
 
 ## Sonuç ve Öneriler
 
-Fiat Ducato motorları **düzenli bakım** ile 500.000 km üzeri sorunsuz çalışabilir. Önemli olan:
+Fiat Ducato motorları **düzenli bakım** ile uzun yıllar sorunsuz çalışabilir. Önemli olan:
 
 ✅ Periyodik bakımları aksatmamak  
 ✅ Orijinal veya OEM kalitesinde yedek parça kullanmak  
@@ -531,11 +515,11 @@ Karataş traktör hidrolik yedek parçaları için bizimle iletişime geçin.`,
   },
   'mutlu-aku-bakim-ve-kullanim-omru': {
     slug: 'mutlu-aku-bakim-ve-kullanim-omru',
-    title: 'Mutlu Akü Bakımı ve Kullanım Ömrü Nasıl Uzatılır? Kış Aylarında Dikkat Edilmesi Gerekenler',
-    excerpt: 'Mutlu akü bakım önerileri, şarj durumu kontrolü, kış aylarında alınacak önlemler ve akü ömrünü 2 katına çıkaracak pratik bilgiler.',
+    title: 'Mutlu Akü Bakımı: Kış Aylarında Dikkat Edilmesi Gerekenler',
+    excerpt: 'Mutlu akü bakım önerileri, şarj durumu kontrolü, kış aylarında alınacak önlemler ve akü bakım ipuçları.',
     content: `# Mutlu Akü Bakım Rehberi
 
-Mutlu akü, Türkiye'nin en güvenilir akü markası olarak bilinir. Doğru bakım ile akü ömrünü 5-6 yıla kadar çıkarabilirsiniz.
+Mutlu akü, Türkiye'nin en güvenilir akü markası olarak bilinir. Doğru bakım ile akünüzü uzun yıllar sorunsuz kullanabilirsiniz.
 
 ## Akü Bakım İpuçları
 
@@ -596,10 +580,10 @@ Mutlu akü çeşitleri ve fiyatları için mağazamızı ziyaret edin.`,
 - Balata kalınlığı 3mm'nin altına düşmüşse
 - Fren mesafesi uzamışsa
 
-### Değişim Periyodu
-- Ön balata: 30.000-40.000 km
-- Arka balata: 50.000-60.000 km
-- Ağır yük taşımada daha sık
+### Değişim Zamanı
+- Periyodik kontrollerle belirlenmelidir
+- Aşınma göstergelerine dikkat edilmelidir
+- Ağır yük taşımada daha sık kontrol
 
 ## Fren Diski Kontrolü
 
@@ -609,7 +593,7 @@ Mutlu akü çeşitleri ve fiyatları için mağazamızı ziyaret edin.`,
 - Yüzey düzgün olmalı, çizik ve oyuk olmamalı
 
 ### Disk Değişimi
-- Genellikle her 2 balata değişiminde 1 disk
+- Aşınma durumuna göre değişim
 - Titreşim varsa disk tornalama veya değişim
 - Her iki tarafı birlikte değiştirin
 
@@ -655,9 +639,9 @@ Araç sahipleri için en büyük ikilemlerden biri: Orijinal mi, yan sanayi mi? 
 ## Orijinal Yedek Parça
 
 ### Avantajları
-- %100 araç uyumluluğu garantisi
-- Üretici garantisi (genellikle 2 yıl)
-- Uzun kullanım ömrü
+- %100 araç uyumluluğu
+- Üretici standartlarında kalite
+- Uzun ömürlü kullanım
 - Sorunsuz montaj
 - Performans kaybı yok
 
@@ -677,7 +661,6 @@ Araç sahipleri için en büyük ikilemlerden biri: Orijinal mi, yan sanayi mi? 
 
 ### Dezavantajları
 - Kalite farklılıkları olabilir
-- Garanti süresi daha kısa (1 yıl)
 - Bazı parçalarda uyumluluk sorunu
 - Performans farkı olabilir
 
@@ -708,16 +691,16 @@ Araç sahipleri için en büyük ikilemlerden biri: Orijinal mi, yan sanayi mi? 
 ## Karar Verme Kriterleri
 
 ### Orijinal Tercih Edin
-- Aracınız garantide ise
 - Kritik güvenlik parçası ise
 - Motor ve şanzıman parçası ise
 - Aracınızı uzun süre kullanacaksanız
+- Maksimum performans istiyorsanız
 
 ### Yan Sanayi Tercih Edebilirsiniz
 - Bütçeniz kısıtlı ise
 - Sarf malzemesi ise
-- Aracınız eski ve değeri düşük ise
 - Kaliteli marka seçimi yapabiliyorsanız
+- Bakım ve filtre ürünlerinde
 
 ## Yönel Oto Önerisi
 
@@ -749,17 +732,17 @@ Fiat Ducato'da ön takım parçaları, hem konfor hem de güvenlik açısından 
 ### Salıncak (Köprü Yatağı)
 - Tekerlekleri karoserise bağlar
 - Alt ve üst salıncak mevcuttur
-- Ömrü: 80.000-120.000 km
+- Kullanım şartlarına göre değişim gerektirir
 
 ### Rotil (Rot Başı)
 - Direksiyon kutusu ile tekerleği bağlar
 - İç ve dış rotil vardır
-- Ömrü: 60.000-80.000 km
+- Periyodik kontrol önemlidir
 
 ### Bijon (Bilyalı Mafsal)
 - Salıncağı göbeğe bağlar
 - Aşınması kontrolör kaybına yol açar
-- Ömrü: 80.000-100.000 km
+- Düzenli kontrol şarttır
 
 ## Aşınma Belirtileri
 
@@ -812,19 +795,10 @@ Fiat Ducato'da ön takım parçaları, hem konfor hem de güvenlik açısından 
 ## Paso Ayarı
 
 Ön takım değişimi sonrası **mutlaka** paso ayarı yapılmalıdır:
-- Lastik ömrünü uzatır
+- Lastikleri korur
 - Yakıt tüketimini azaltır
 - Sürüş konforunu artırır
 - Güvenli sürüş sağlar
-
-## Parça Ömürleri
-
-| Parça | Ortalama Değişim Süresi |
-|-------|------------------------|
-| Salıncak | 100.000 km |
-| Rotil | 70.000 km |
-| Bijon | 90.000 km |
-| Komple Set | Kullanım durumuna göre |
 
 Fiat Ducato ön takım yedek parçaları için Yönel Oto ile iletişime geçin.`,
     category: 'Fiat Ducato',
@@ -958,10 +932,10 @@ Traktörlerde filtre bakımı, motor ömrünü ve performansını doğrudan etki
 ## Filtre Bakımının Önemi
 
 Düzenli filtre bakımı ile:
-- Motor ömrü 2 katına çıkar
+- Motor performansı korunur
 - Yakıt ekonomisi %10-15 artar
 - Pahalı tamir masraflarından korunursunuz
-- Motor performansı maksimum seviyede kalır
+- Motor maksimum seviyede çalışır
 
 **Sonuç**: Filtre bakımı, traktör bakımının en önemli ve vazgeçilmez kısmıdır. İhmal edilmesi durumunda enjektör ve pompa gibi pahalı parçalarda arızalara yol açabilir.
 
