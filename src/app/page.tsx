@@ -504,6 +504,7 @@ export default async function Home() {
                 key={category.name}
                 href={category.link}
                 className="group relative overflow-hidden"
+                rel="nofollow"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/ListItem"
@@ -549,7 +550,7 @@ export default async function Home() {
 
                     {/* CTA */}
                     <div className="mt-6 flex items-center gap-2 text-primary group-hover:text-white font-semibold text-sm group-hover:gap-3 transition-all duration-300">
-                      <span>Ürünleri İncele</span>
+                      <span>{category.name} ürünlerini incele</span>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
