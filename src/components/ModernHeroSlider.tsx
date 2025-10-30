@@ -183,15 +183,15 @@ export default function ModernHeroSlider() {
                 YENİ ÜRÜNLER
               </motion.div>
 
-              {/* Title */}
-              <motion.h1
+              {/* Title (h2 to avoid multiple H1 on the page) */}
+              <motion.h2
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
                 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 leading-tight"
               >
                 {slides[currentSlide].title}
-              </motion.h1>
+              </motion.h2>
 
               {/* Subtitle */}
               <motion.p
