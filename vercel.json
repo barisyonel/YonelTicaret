@@ -4,6 +4,10 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["fra1"],
+  "github": {
+    "autoDeployOnPush": true,
+    "productionBranch": "main"
+  },
   "headers": [
     {
       "source": "/(.*)",
