@@ -97,6 +97,12 @@ export default function ContactPage() {
                     0 (554) 259 72 73
                   </a>
                 </p>
+                <p className="text-gray-600 mt-1">
+                  <span className="font-medium">Telefon:</span>{' '}
+                  <a href="tel:03562143611" className="hover:text-primary">
+                    0 (356) 214 36 11
+                  </a>
+                </p>
               </div>
 
               <div>

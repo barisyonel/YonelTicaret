@@ -433,7 +433,7 @@ export default function AboutPage() {
                 </div>
                 <div className="pb-12">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Genişleme</h3>
-                  <p className="text-gray-600">İveco Daily ve traktör yedek parçalarında uzmanlaştık</p>
+                  <p className="text-gray-600">İveco ve traktör yedek parçalarında uzmanlaştık</p>
                 </div>
               </div>
 
@@ -453,14 +453,42 @@ export default function AboutPage() {
 
               <div className="flex gap-6">
                 <div className="flex-shrink-0 w-32 text-right">
+                  <div className="text-3xl font-bold text-primary">2015</div>
+                </div>
+                <div className="flex-shrink-0 relative">
+                  <div className="w-4 h-4 bg-primary rounded-full mt-2"></div>
+                  <div className="w-0.5 h-full bg-primary/30 absolute left-1.5 top-6"></div>
+                </div>
+                <div className="pb-12">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Yeni Marka</h3>
+                  <p className="text-gray-600">Foton Traktör yedek parçalarında hizmete başladık</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex-shrink-0 w-32 text-right">
                   <div className="text-3xl font-bold text-primary">2020</div>
+                </div>
+                <div className="flex-shrink-0 relative">
+                  <div className="w-4 h-4 bg-primary rounded-full mt-2"></div>
+                  <div className="w-0.5 h-full bg-primary/30 absolute left-1.5 top-6"></div>
+                </div>
+                <div className="pb-12">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Dijitalleşme</h3>
+                  <p className="text-gray-600">Online satış platformumuzu hayata geçirdik</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex-shrink-0 w-32 text-right">
+                  <div className="text-3xl font-bold text-primary">2024</div>
                 </div>
                 <div className="flex-shrink-0 relative">
                   <div className="w-4 h-4 bg-primary rounded-full mt-2"></div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Dijitalleşme</h3>
-                  <p className="text-gray-600">Online satış platformumuzu hayata geçirdik</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Yeni İş Ortaklığı</h3>
+                  <p className="text-gray-600">Karataş Traktör yedek parçalarını ürün gamımıza ekledik</p>
                 </div>
               </div>
             </div>
