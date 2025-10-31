@@ -482,7 +482,7 @@ Karataş traktörlerde hidrolik sistem, tarla çalışmalarının verimliliği i
 
 ### Ne Zaman Değiştirilmeli?
 - İlk 50 saat sonra
-- Sonrasında her 500 saatte bir
+- Sonrasında her 250 saatte bir
 - Yağ kirlendiğinde veya köpürdüğünde
 
 ### Hidrolik Yağ Seçimi
@@ -680,13 +680,6 @@ Araç sahipleri için en büyük ikilemlerden biri: Orijinal mi, yan sanayi mi? 
 4. Egzoz sistemleri
 5. Aydınlatma ve silecekler
 6. Bakım malzemeleri
-
-## Kaliteli Yan Sanayi Markaları
-
-- **Filtreler**: Mann Filter, Bosch, Mahle
-- **Fren**: Brembo, TRW, ATE, Valeo
-- **Amortisör**: Sachs, Bilstein, Monroe
-- **Yağ**: Shell, Mobil, Castrol
 
 ## Karar Verme Kriterleri
 
