@@ -4,6 +4,7 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["fra1"],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "headers": [
     {
       "source": "/(.*)",
