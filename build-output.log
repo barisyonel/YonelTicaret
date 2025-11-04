@@ -1,0 +1,108 @@
+
+> yonel-nextjs@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.33
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · optimizeCss
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+
+Failed to compile.
+
+./src/app/about/page.tsx
+3:8  Error: 'Image' is defined but never used.  @typescript-eslint/no-unused-vars
+106:35  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+199:28  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+268:21  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+286:104  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+422:53  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+549:23  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/app/admin/categories/CategoriesTable.tsx
+117:51  Error: 'parentName' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/sliders/SlidersTable.tsx
+5:8  Error: 'CardMedia' is defined but never used.  @typescript-eslint/no-unused-vars
+234:31  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/app/admin/sliders/actions.ts
+92:19  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/blog/page.tsx
+6:8  Error: 'LocalOfferIcon' is defined but never used.  @typescript-eslint/no-unused-vars
+7:8  Error: 'PersonIcon' is defined but never used.  @typescript-eslint/no-unused-vars
+174:7  Error: 'categories' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/kvkk/page.tsx
+44:108  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+44:113  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+97:37  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+147:17  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+155:74  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/app/page.tsx
+76:25  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+86:12  Error: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+416:32  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+416:74  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+421:26  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+989:94  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+1175:60  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+1299:24  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+1299:35  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/app/products/ProductsHeader.tsx
+55:11  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+55:20  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+./src/app/products/[...slug]/page.tsx
+181:24  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/sitemap.ts
+67:54  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+81:26  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/urunler/[[...slug]]/page.tsx
+2:8  Error: 'Grid' is defined but never used.  @typescript-eslint/no-unused-vars
+49:50  Error: 'searchParams' is defined but never used.  @typescript-eslint/no-unused-vars
+140:10  Error: 'ProductsLoading' is defined but never used.  @typescript-eslint/no-unused-vars
+162:19  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+219:17  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+238:16  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/components/AnimatedBrandCard.tsx
+49:36  Warning: The ref value 'cardRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'cardRef.current' to a variable inside the effect, and use that variable in the cleanup function.  react-hooks/exhaustive-deps
+
+./src/components/Footer.tsx
+78:45  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/components/ModernBrandCard.tsx
+20:50  Error: 'index' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/ModernHeroSlider.tsx
+93:13  Error: 'direction' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/Navbar.tsx
+4:8  Error: 'Toolbar' is defined but never used.  @typescript-eslint/no-unused-vars
+7:8  Error: 'Container' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/ProductsInfoCards.tsx
+129:44  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/components/Testimonials.tsx
+107:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+107:39  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+./src/lib/analytics/gtag.ts
+94:31  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/lib/cache.ts
+25:49  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+25:67  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+44:73  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
